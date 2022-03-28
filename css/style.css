@@ -256,6 +256,7 @@
 }
 .assambly__socials {
     display: flex;
+    margin-bottom: 5rem;
 
 }
 .assambly__item {
