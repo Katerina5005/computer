@@ -314,7 +314,8 @@
     margin: 0 auto 3.2rem auto;
 }
 .modal__item {
-    height: 4.4rem;    
+    height: 4.4rem; 
+     
 }
 .modal__item:not(:last-child) {
     margin-bottom: 1.8rem;
@@ -322,14 +323,21 @@
 .modal__input {
     width: 100%;
     height: 100%;
-    padding-left: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     background-color: grey;
     border-radius: 5rem;
     font-size: 1.4rem;
     line-height: 160%;
     color: #ffffff;
-    opacity: 0.6;
+    opacity: 0.8;
 }
+
+::placeholder {
+    color: ivory;
+    font-size: 1.4rem;
+  }
+
 
 .modal__close {
     position: absolute;
