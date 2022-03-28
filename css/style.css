@@ -322,12 +322,13 @@
 .modal__input {
     width: 100%;
     height: 100%;
+    padding-left: 1rem;
     background-color: grey;
     border-radius: 5rem;
     font-size: 1.4rem;
     line-height: 160%;
     color: #ffffff;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .modal__close {
@@ -337,4 +338,9 @@
     width: 5rem;
     height: 5rem;
     cursor: pointer;
+}
+
+.noscroll {
+    overflow: hidden;
+    height: 100%;
 }
