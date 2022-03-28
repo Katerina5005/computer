@@ -26,13 +26,13 @@
     margin-right: 4.1rem;
 }
 .header__nav a {
-    font-size: 1.4rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
 }
 
 .header__btn {
     margin-left: 50rem;
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
@@ -65,10 +65,6 @@
     width: 9.2rem;
     height: 10.2rem;
     background-color: #121212;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .timer__item:not(:last-child) {
@@ -81,13 +77,13 @@
     line-height: 140%;
 }
 .timer__text {
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 140%;
     opacity: 0.4;
 }
 
 .main-display__btn {
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }
@@ -124,7 +120,7 @@
     line-height: 140%;
 }
 .work__descr {
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 140%;
 }
 
@@ -155,7 +151,7 @@
 .process__descr {
     max-width: 41.1rem;
     margin-bottom: 8rem;
-    font-size: 1.4rem;
+    font-size: var(--text-size-medium);
     font-weight: 700;
     line-height: 140%;
     opacity: 0.50rem;
@@ -187,7 +183,7 @@
 
 }
 .process__text {
-    font-size: 1.4rem;
+    font-size: var(--text-size-medium);
     line-height: 160%;
     opacity: 0.5;
 }
@@ -208,12 +204,7 @@
     padding-left: 11rem;
     padding-right: 11rem;
 }
-.command__item {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-}
+
 .command__img {
     width: 19rem;
     height: 19rem;
@@ -230,12 +221,12 @@
 .command__prof {
     margin-bottom: 3rem;
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: var(--text-size-medium);
     line-height: 160%;
 }
 
 .command__link {
-    font-size: 1.4rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
     border: 0.1rem solid #ffffff;
 }
@@ -244,12 +235,6 @@
     padding-bottom: 24.4rem;
 }
 
-.assambly__wrap {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
-}
 .assambly__header {
     margin-bottom: 3rem;
     line-height: 140%;
@@ -259,13 +244,13 @@
 }
 .assambly__descr {
     margin-bottom: 4.52rem;
-    font-size: 1.4rem;
+    font-size: var(--text-size-medium);
     line-height: 160%;
 }
 
 .assambly__btn {
     margin-bottom: 5rem;
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
     background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
 }

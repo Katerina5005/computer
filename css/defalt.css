@@ -37,8 +37,17 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
+:root {
+    --text-size-medium: 1.4rem;
+}
 .button {
     border-radius: 5rem;
     padding: 1rem 3rem;
     color:#ffffff;
+}
+.block-center {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
 }
